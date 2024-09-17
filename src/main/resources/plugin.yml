@@ -1,5 +1,6 @@
 name: $name
 version: $version
+description: A Skript addon that allows you to create and manage packet-based scoreboards easily.
 author: _tud
 
 website: https://github.com/UnderscoreTud/skript-scoreboards
