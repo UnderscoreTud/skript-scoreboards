@@ -1,0 +1,9 @@
+name: $name
+version: $version
+author: _tud
+
+website: https://github.com/UnderscoreTud/skript-scoreboards
+api-version: 1.13
+
+main: ${group}.SkriptScoreboards
+softdepend: [Skript]
