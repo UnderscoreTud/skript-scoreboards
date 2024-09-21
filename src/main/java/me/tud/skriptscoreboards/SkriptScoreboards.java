@@ -34,6 +34,8 @@ public final class SkriptScoreboards extends JavaPlugin {
             return;
         }
 
+        FastBoardManager.registerListener(this);
+
         try {
             addonInstance = Skript.registerAddon(this).setLanguageFileDirectory("lang");
             addonInstance.loadClasses("me.tud.skriptscoreboards.elements");
