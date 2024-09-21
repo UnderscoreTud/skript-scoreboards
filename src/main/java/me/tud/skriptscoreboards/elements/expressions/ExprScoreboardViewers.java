@@ -24,7 +24,7 @@ import java.util.Arrays;
     "on join:",
         "\tadd player to scoreboard viewers of {-global-scoreboard}"
 })
-@Since("INSERT VERSION")
+@Since("1.0.0")
 public class ExprScoreboardViewers extends PropertyExpression<FastBoardWrapper, Player> {
 
     static {

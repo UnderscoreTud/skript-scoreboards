@@ -28,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
         "\t# Skipped lines will be empty",
         "\tset line 4 of {_board} to \"IP: &fmyserver.com\""
 })
-@Since("INSERT VERSION")
+@Since("1.0.0")
 public class ExprPlayerScoreboard extends SimplePropertyExpression<Player, FastBoardWrapper> {
 
     static {

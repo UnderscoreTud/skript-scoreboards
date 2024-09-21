@@ -17,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
     "on join:",
         "\tset title of scoreboard of player to \"&c&lMy Scoreboard\""
 })
-@Since("INSERT VERSION")
+@Since("1.0.0")
 public class ExprScoreboardTitle extends SimplePropertyExpression<FastBoardWrapper, String> {
 
     static {

@@ -19,7 +19,7 @@ import org.eclipse.jdt.annotation.Nullable;
     "show the scoreboard of all players",
     "hide the scoreboard of {-scoreboard}"
 })
-@Since("INSERT VERSION")
+@Since("1.0.0")
 public class EffScoreboardVisibility extends Effect {
 
     static {

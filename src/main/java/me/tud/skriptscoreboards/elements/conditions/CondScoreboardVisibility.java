@@ -20,7 +20,7 @@ import static ch.njol.skript.lang.SkriptParser.ParseResult;
         "\telse:",
             "\t\thide {_scoreboard}"
 })
-@Since("INSERT VERSION")
+@Since("1.0.0")
 public class CondScoreboardVisibility extends PropertyCondition<FastBoardWrapper> {
 
     static {

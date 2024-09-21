@@ -30,7 +30,7 @@ import java.util.List;
         "\t# Skipped lines will be empty",
         "\tset line 4 of scoreboard of player to \"IP: &fmyserver.com\""
 })
-@Since("INSERT VERSION")
+@Since("1.0.0")
 @RequiredPlugins("Minecraft 1.20.3+ (custom scores)")
 public class ExprScoreboardLine extends PropertyExpression<FastBoardWrapper, String> {
 

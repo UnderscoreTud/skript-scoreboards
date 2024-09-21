@@ -27,7 +27,7 @@ public class Types {
                 "set line 1 of {_board} to \"Line 1\"",
                 "add player to {_board}"
             )
-            .since("INSERT VERSION")
+            .since("1.0.0")
             .parser(new Parser<>() {
                 @Override
                 public boolean canParse(ParseContext context) {

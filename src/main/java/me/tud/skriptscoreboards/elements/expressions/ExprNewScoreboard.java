@@ -26,7 +26,7 @@ import org.jetbrains.annotations.Nullable;
     "on join:",
         "\tset scoreboard of player to {-global-scoreboard}"
 })
-@Since("INSERT VERSION")
+@Since("1.0.0")
 public class ExprNewScoreboard extends SimpleExpression<FastBoardWrapper> {
 
     static {
