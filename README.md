@@ -1,25 +1,17 @@
-
 # skript-scoreboards
-
 skript-scoreboards is an addon that allows you to create and manage packet-based scoreboards easily.
 
-
 ## Features
-
 - Packet-based scoreboards
 - Per player scoreboards
 - Scoreboards with shared viewers
 - No character limit on lines
 - Support for custom line scores (Minecraft 1.20.3+)
 
-
 ## Documentation
-
-Will be available soon...
-
+[![Get on skUnity](https://docs.skunity.com/skunity/library/Docs/Assets/assets/images/buttons/v2/get-the-syntax-square.png)](https://docs.skunity.com/syntax/search/addon:skript-scoreboards)
 
 ## Usage/Examples
-
 #### Global Scoreboards
 ```applescript
 on load:
@@ -50,7 +42,6 @@ on join:
     set line 2 of {_board} to "Coins"
     set score of line 2 of {_board} to "&e%{coins::%player%}%"
 ```
+
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
-
