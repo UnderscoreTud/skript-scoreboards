@@ -11,7 +11,7 @@ import me.tud.skriptscoreboards.fastboard.FastBoardWrapper;
 
 import static ch.njol.skript.lang.SkriptParser.ParseResult;
 
-@Name("Scoreboard Visibility")
+@Name("Is Scoreboard Visible")
 @Description("Check if a scoreboard is shown or hidden.")
 @Examples({
     "function toggle_scoreboard(scoreboard: scoreboard):",
