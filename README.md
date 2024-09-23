@@ -9,7 +9,8 @@ skript-scoreboards is an addon that allows you to create and manage packet-based
 - Support for custom line scores (Minecraft 1.20.3+)
 
 ## Documentation
-[![Get on skUnity](https://docs.skunity.com/skunity/library/Docs/Assets/assets/images/buttons/v2/get-the-syntax-square.png)](https://docs.skunity.com/syntax/search/addon:skript-scoreboards)
+[![Get on skUnity](https://docs.skunity.com/skunity/library/Docs/Assets/assets/images/buttons/v2/get-the-syntax-square.png)](https://docs.skunity.com/syntax/search/addon:skript-scoreboards) [![SkriptHubViewTheDocs](http://skripthub.net/static/addon/ViewTheDocsButton.png)](http://skripthub.net/docs/?addon=skript-scoreboards)
+
 
 ## Usage/Examples
 #### Global Scoreboards
