@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "me.tud.skriptscoreboards"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
