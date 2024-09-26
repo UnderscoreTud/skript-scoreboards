@@ -24,6 +24,7 @@ dependencies {
     compileOnly("com.github.SkriptLang:Skript:2.9.2")
     compileOnly("org.eclipse.jdt:org.eclipse.jdt.annotation:2.3.0")
     implementation("fr.mrmicky:fastboard:2.1.3")
+    implementation("org.bstats:bstats-bukkit:3.0.2")
 }
 
 val properties = Properties()
@@ -41,6 +42,7 @@ tasks.withType<Jar> {
 
 tasks.withType<ShadowJar> {
     relocate("fr.mrmicky.fastboard", "me.tud.skriptscoreboards.fastboard")
+    relocate("org.bstats", "me.tud.skriptscoreboards.bstats")
 }
 
 tasks.processResources {
